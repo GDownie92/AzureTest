@@ -6,16 +6,16 @@
  * Time: 15:30
  */
 
-$wantedgood = 1;
+$wantedgood = "mugs";
 
 switch ($wantedgood) {
-    case 1:
+    case "specs":
         echo "You have to be 16 to buy specs.";
         break;
-    case 2:
+    case "mugs":
         echo "You have to be 18 to buy mugs.";
         break;
-    case 3:
+    case "sausage rolls":
         echo "You have to be 21 to buy sausage rolls.";
         break;
 }
