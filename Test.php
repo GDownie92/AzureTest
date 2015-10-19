@@ -6,7 +6,7 @@
  * Time: 15:30
  */
 
-$wantedgood = "mugs";
+$wantedgood = "sausage rolls";
 
 switch ($wantedgood) {
     case "specs":
