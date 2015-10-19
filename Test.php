@@ -6,18 +6,16 @@
  * Time: 15:30
  */
 
-$numberOfHobbits = 2;
+$wantedgood = 1;
 
-switch ($numberOfHobbits) {
+switch ($wantedgood) {
     case 1:
-        echo "1 sad hobbit";
+        echo "You have to be 16 to buy specs.";
         break;
     case 2:
-        echo "2 happy hobbits";
+        echo "You have to be 18 to buy mugs.";
         break;
     case 3:
-        echo "3 hobbits are a crowd";
+        echo "You have to be 21 to buy sausage rolls.";
         break;
-    default:
-        echo "All the hobbits have gone home";
 }
