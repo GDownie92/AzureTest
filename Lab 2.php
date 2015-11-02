@@ -23,8 +23,8 @@ function printWantedBanner($name, $specsOwned, $mugsOwned, $sausageRollsOwned)
 
 }
 
-printWantedBanner("Mike",1,2,3);
-printWantedBanner("John",3,4,5);
+printWantedBanner("Greg",12,2,3);
+printWantedBanner("Bob",5,6,5);
 
 
 ?>
